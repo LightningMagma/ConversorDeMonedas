@@ -59,6 +59,8 @@ public class Menu {
             System.out.println("4 - CLP - Peso chileno");
             System.out.println("5 - COP - Peso colombiano");
             System.out.println("6 - USD - Dólar estadounidense");
+            System.out.println("7 - CAD - Dólar canadiense");
+            System.out.println("8 - EUR - Euro");
             System.out.println("9 - Salir del programa");
         }
         System.out.println("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓");
@@ -84,6 +86,12 @@ public class Menu {
             case "6":
             case "USD":
                 return "/USD";
+            case "7":
+            case "CAD":
+                return "/CAD";
+            case "8":
+            case "EUR":
+                return "/EUR";
             default:
                 System.out.println("XxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXx");
                 System.out.println("Seleccione una opcion correcta");
